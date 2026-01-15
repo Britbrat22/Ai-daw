@@ -1,1 +1,14 @@
+# AI DAW (Web) — Multi-track + Mixdown + AI Mastering
 
+## Requirements
+- Node.js 18+
+- Python 3.10+
+
+## Run Backend (FastAPI)
+```bash
+cd backend
+python -m venv venv
+source venv/bin/activate   # mac/linux
+# .\venv\Scripts\activate  # windows
+pip install -r requirements.txt
+uvicorn main:app --reload --port 8000
